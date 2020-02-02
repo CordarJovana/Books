@@ -1,0 +1,119 @@
+.sadrzaj{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    background-color: rgb(233, 183, 191);
+    background-image: url(naslov.jpg);
+    background-position: center;
+    
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    height: 200px;
+    right: 0;
+    left: 0;
+    
+}
+#naslov{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-decoration-line: underline;
+    font-size: 55px;
+}
+body{
+    scroll-behavior: smooth;
+    background-image: url(pozadina.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+
+#forma{
+    text-align: center;
+}
+
+#tekst{
+    height: 50px;
+    width: 300px;
+    border-color:orange;
+    
+}
+#dugme{
+    height: 55px;
+    width: 150px;
+    font-size: 70%;
+    border-color: blueviolet;
+    font-weight: bold;
+}
+#tip{
+    height: 55px;
+    width: 100px;
+    font-size: 70%;
+    border-color: chartreuse;
+
+}
+
+
+#redosled{
+    height: 55px;
+    width: 200px;
+    font-size: 70%;
+    border-color: red;
+}
+
+#rezultatiTekst{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: medium;
+    margin-top: 10px;
+
+}
+
+#pagination{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-between;
+
+}
+
+#rezultati{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.naslov{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.autor{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.datumIzdavanja{
+    font-style: italic;
+}
+
+#imagebutton{
+    font-size: x-large;
+    border-color: blue;
+}
+
+#sledecaStranica{
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+#prethodnaStranica{
+    text-decoration: none;
+    padding-right: 50px;
+}
+
